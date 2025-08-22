@@ -1,0 +1,17 @@
+Exception Handling
+
+class Error(Exception): //inheriting from Exception class//
+    pass
+
+class exp1(Error):
+    pass
+
+try:
+    if --------:
+        print(-------)
+    else:
+
+        raise exp1
+
+except exp1:
+    print("error")
